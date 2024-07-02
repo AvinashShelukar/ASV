@@ -1,0 +1,282 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+.container1 {
+    position: relative;
+    text-align:absolute; 
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%; /* Adjust top position as needed */
+    left: 50%; /* Adjust left position as needed */
+    transform: translate(-50%, -50%); /* Center the overlay horizontally and vertically */
+    color: white; /* Text color for the overlay */
+    text-align: center; /* Center the text */
+}
+
+.image-overlay h1,
+.image-overlay p {
+    margin: 0; /* Remove default margin */
+}
+
+.quote {
+    position: absolute;
+    bottom: 10px; /* Adjust bottom position as needed */
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: white; /* Text color for the quote */
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 347px; 
+    left: 131px; /* Adjust left position as needed */
+}
+
+.logo {
+    width: 656px; 
+    height: 316px; 
+}
+
+.GroupAsvCount {
+    width: 1512px;
+    height: 626px;
+    position: relative;
+}
+
+.Rectangle393 {
+    width: 1512px;
+    height: 626px;
+    left: 2px;
+    top: 0px;
+    position: absolute;
+    background: rgba(9, 54, 36, 0.20);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.AsvCount {
+    width: 391px;
+    height: 226px;
+    left: 213px;
+    top: 130px;
+    position: absolute;
+    color: #093624;
+    font-size: 96px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.AsvAvailableAt {
+    width: 198px;
+    height: 27px;
+    left: 730px;
+    top: 356px;
+    position: absolute;
+    text-align: center;
+}
+
+.AsvAvailableAt span {
+    color: #093624;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.AntiSnakeVenom {
+    width: 222px;
+    height: 23px;
+    left: 213px;
+    top: 369px;
+    position: absolute;
+}
+
+.AntiSnakeVenom span {
+    color: #093624;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.number-container {
+    width: 286px;
+    height: 158px;
+    left: 658px;
+    top: 171px;
+    position: absolute;
+    text-align: center;
+    font-size: 128px;
+    font-family: Jost;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.plus-sign {
+    width: 286px;
+    height: 128px;
+    left: 774px;
+    top: 196px;
+    position: absolute;
+    text-align: center;
+    font-size: 96px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+
+.LivesSavedByAsv {
+    width: 235px;
+    height: 27px;
+    left: 1068px;
+    top: 356px;
+    position: absolute;
+    text-align: center;
+    color: #093624;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.Group261 {
+    width: 239px;
+    height: 77px;
+    left: 213px;
+    top: 420px;
+    position: absolute;
+}
+
+.Rectangle395 {
+    width: 239px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #093624;
+    border-radius: 10px;
+}
+
+.CheckAvailability {
+    width: 198px;
+    height: 23px;
+    left: 11px;
+    top: 26px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.Arrow1 {
+    width: 20px;
+    height: 0px;
+    left: 206px;
+    top: 37px;
+    position: absolute;
+    border-radius: 10px;
+    border: 2px white solid;
+}
+
+
+/* Add styles for other elements similarly */
+
+header {
+    background-color: #FFFFFF; 
+    color: #FFFFFF; 
+    padding: 10px;
+    margin: 0; 
+    display: flex; 
+    align-items: center; /* Center vertically */
+ }
+
+header img {
+    width: 137px; 
+    height: 70px; 
+    margin-left:100px;
+    margin-right: 50px; 
+}
+
+header p {
+    margin: 0 45px;
+    color:#093624; /* Set margin for each paragraph */
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+ .search-icon {
+    width: 32.5px; /* Set width of the search icon */
+    height: 32.5px; /* Set height of the search icon */
+    margin-right: -30px; /* Add space between icon and input */
+    z-index: 1;
+ }
+.search-bar {
+    width: 200px; /* Set width of the search bar */
+    padding: 8px 8px 8px 33px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 55px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.sign-in-button {
+    background-color: #093624; 
+    color: white; 
+    padding: 8px 16px; 
+    border: none; /* Remove border */
+    border-radius: 55px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); 
+    margin-left: 80px; 
+}
+
+.container1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    margin-top: 20px; 
+    text-align: center; 
+    background-image: url('bronzebackTreeSnake1.jpeg'); 
+    }
+.mac-book-pro-147 .image-55 {
+        background: url('image55.png') 50% / cover no-repeat;
+        width: 231.7px;
+        height: 221.3px;
+      }
+
+
+
+      /* Example of CSS rules for responsive design */
+.WebsiteHomepage {
+    width: 100%;
+    max-width: 1500px; /* Example max width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  /* Example of media query for tablet screens */
+  @media (max-width: 768px) {
+    .WebsiteHomepage {
+      padding: 20px; /* Adjust spacing for smaller screens */
+    }
+  }
+  
+  /* Example of media query for smartphone screens */
+  @media (max-width: 576px) {
+    .WebsiteHomepage {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  

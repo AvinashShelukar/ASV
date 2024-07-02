@@ -1,0 +1,965 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif; 
+}
+.search-icon {
+    width: 32.5px; /* Set width of the search icon */
+    height: 32.5px; /* Set height of the search icon */
+    margin-right: -30px; /* Add space between icon and input */
+    z-index: 1;
+}
+/* Styles for .WebsiteHomepage */
+.WebsiteHomepage {
+    width: 1512px;
+    height: 5342px;
+    position: relative;
+    background: white;
+}
+
+/* Styles for .Slide11 */
+.Slide11 {
+    width: 1511px;
+    height: 797px;
+    left: 0px;
+    top: 90px;
+    position: absolute;
+}
+
+/* Styles for .Rectangle401 */
+.Rectangle401 {
+    width: 382px;
+    height: 382px;
+    left: 1921px;
+    top: 3877px;
+    position: absolute;
+    background: #093624;
+    border-radius: 10px;
+}
+
+/* Styles for .ClipPathGroup */
+.ClipPathGroup {
+    width: 1306px;
+    height: 710.58px;
+    left: 108px;
+    top: 1262px;
+    position: absolute;
+}
+
+/* Styles for .Vector inside .ClipPathGroup */
+.ClipPathGroup .Vector {
+    width: 1306px;
+    height: 710.58px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Additional styles for nested .ClipPathGroup */
+.ClipPathGroup .ClipPathGroup {
+    width: 1306px;
+    height: 710.91px;
+    left: -0px;
+    top: -0.33px;
+    position: absolute;
+}
+
+/* Styles for .Rectangle inside nested .ClipPathGroup */
+.ClipPathGroup .ClipPathGroup .Rectangle {
+    width: 1308.14px;
+    height: 712.09px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Styles for .Rectangle418 */
+.Rectangle418 {
+    width: 1512px;
+    height: 131px;
+    left: 2px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Styles for .Group276 */
+.Group276 {
+    width: 1210px;
+    height: 70px;
+    left: 154px;
+    top: 45px;
+    position: absolute;
+}
+
+/* Styles for .Rectangle413 */
+.Rectangle413 {
+    width: 103px;
+    height: 40px;
+    left: 1107px;
+    top: 15px;
+    position: absolute;
+    background: #093624;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/* Styles for text elements */
+.AboutUs, .Login, .Asv, .Community, .Explore {
+    position: absolute;
+    font-size: 18px;
+    font-family: Jost;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+/* Styles for .AboutUs */
+.AboutUs {
+    width: 84px;
+    height: 18px;
+    left: 203px;
+    top: 26px;
+    color: black;
+}
+
+/* Styles for .Login */
+.Login {
+    width: 43px;
+    height: 17px;
+    left: 1137px;
+    top: 26px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Jost;
+    font-weight: 500;
+}
+
+/* Styles for .Asv */
+.Asv {
+    width: 39px;
+    height: 18px;
+    left: 316px;
+    top: 26px;
+    color: black;
+}
+
+/* Styles for .Community */
+.Community {
+    width: 98px;
+    height: 18px;
+    left: 384px;
+    top: 26px;
+    color: black;
+}
+
+/* Styles for .Explore */
+.Explore {
+    width: 64px;
+    height: 18px;
+    left: 511px;
+    top: 26px;
+    color: black;
+}
+
+/* Styles for .Lab01 */
+.Lab01 {
+    width: 137px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Styles for .Rectangle414 */
+.Rectangle414 {
+    width: 363px;
+    height: 40px;
+    left: 704px;
+    top: 15px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/* Styles for .Rectangle415 */
+.Rectangle415 {
+    width: 40px;
+    height: 40px;
+    left: 704px;
+    top: 15px;
+    position: absolute;
+    background: #093624;
+    border-radius: 20px;
+}
+
+/* Styles for .Search */
+.Search {
+    width: 20px;
+    height: 21.82px;
+    left: 714px;
+    top: 24px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+/* Styles for .Vector inside .Search */
+.Search .Vector {
+    width: 13.33px;
+    height: 14.55px;
+    border: 2px white solid;
+}
+
+
+/* Styles for .Search */
+.Search {
+    width: 40px;
+    height: 12px;
+    left: 752px;
+    top: 29px;
+    position: absolute;
+    opacity: 0.70;
+    color: #093624;
+    font-size: 12px;
+    font-family: Jost;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+/* Styles for .OurMission */
+.OurMission {
+    width: 271px;
+    height: 52px;
+    left: 152px;
+    top: 897px;
+    position: absolute;
+    color: #093624;
+    font-size: 48px;
+    font-family: Jost;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+/* Styles for .JoinTheFightAgainstSnakebitesDeathsInIndia */
+.JoinTheFightAgainstSnakebitesDeathsInIndia {
+    width: 904px;
+    left: 155px;
+    top: 993px;
+    position: absolute;
+    color: #093624;
+    font-size: 40px;
+    font-family: Jost;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+/* Styles for .Group278 */
+.Group278 {
+    width: 231.69px;
+    height: 260px;
+    left: 1132px;
+    top: 993px;
+    position: absolute;
+}
+
+/* Styles for .Rectangle424 */
+.Rectangle424 {
+    width: 231.69px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #134B35;
+}
+
+/* Styles for .Image55 */
+.Image55 {
+    width: 231.69px;
+    height: 221.26px;
+    left: -0px;
+    top: 19.37px;
+    position: absolute;
+}
+
+/* Styles for .JoinUs */
+.JoinUs {
+    width: 904px;
+    left: 152px;
+    top: 1084px;
+    position: absolute;
+    text-align: justify;
+    color: black;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styles for .Rectangle425 */
+.Rectangle425 {
+    width: 185px;
+    height: 28px;
+    left: 994px;
+    top: 1617px;
+    position: absolute;
+    background: #004C1E;
+}
+
+/* Styles for .Rectangle426 */
+.Rectangle426 {
+    width: 110px;
+    height: 28px;
+    left: 1003px;
+    top: 1651px;
+    position: absolute;
+    background: #004C1E;
+}
+
+/* Styles for .OurApproach3tModel */
+.OurApproach3tModel {
+    left: 154px;
+    top: 2500.35px;
+    position: absolute;
+    color: #093624;
+    font-size: 48px;
+    font-family: Jost;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Styles for .Rectangle391, .Rectangle429, .Rectangle427, .Rectangle428 */
+.Rectangle391, .Rectangle429, .Rectangle427, .Rectangle428 {
+    width: 392px;
+    height: 712px; /* or appropriate heights based on specific needs */
+    position: absolute;
+    background: white;
+    box-shadow: 4px 7px 14px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* Styles for .IntroducingApp */
+.IntroducingApp {
+    width: 355px;
+    height: 199px; /* or appropriate height */
+    left: 173px;
+    top: 2977.35px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Jost;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styles for .Image52, .Iphone15ProPortraitMockup11, .Iphone15ProPortraitMockup21, .Iphone15ProPortraitMockup31 */
+.Image52, .Iphone15ProPortraitMockup11, .Iphone15ProPortraitMockup21, .Iphone15ProPortraitMockup31 {
+    width: auto; /* Set appropriate width based on specific needs */
+    height: auto; /* Set appropriate height based on specific needs */
+    position: absolute;
+    box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; /* or appropriate border-radius */
+}
+
+/* Styles for .SpreadingAwareness */
+.SpreadingAwareness {
+    width: 355px;
+    left: 580px;
+    top: 2977.35px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Jost;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styles for .Image54 */
+.Image54 {
+    width: 392px;
+    height: 292px;
+    left: 971px;
+    top: 2609.35px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/* Styles for .EnsuringAccessToAsv */
+.EnsuringAccessToAsv {
+    width: 355px;
+    left: 989px;
+    top: 2977.35px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Jost;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styles for .Vector */
+.Vector {
+    width: 85.75px;
+    height: 76.25px;
+    left: -210px;
+    top: 2462px;
+    position: absolute;
+    background: #093624;
+}
+
+/* Styles for .MeetOurFearlessRescuers, .Explore, .UnderstandingCrisis */
+.MeetOurFearlessRescuers, .Explore, .UnderstandingCrisis {
+    text-align: center;
+    color: #093624;
+    font-size: 48px;
+    font-family: Jost;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+/* Styles for .Rectangle423, .Rectangle433 */
+.Rectangle423, .Rectangle433 {
+    position: absolute;
+    background: #093624;
+}
+
+/* Styles for .GloballySnakebites, .InIndiaDeaths, .BigFourSnakes */
+.GloballySnakebites, .InIndiaDeaths, .BigFourSnakes {
+    width: 390px;
+    height: 194px;
+    color: white;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styles for .Rectangle423 */
+.Rectangle423 {
+    width: 1516px;
+    height: 452px;
+    left: 1px;
+    top: 2010px;
+    background: rgba(9, 54, 36, 0.70);
+}
+
+/* Styles for .Rectangle434 to .Rectangle438 */
+.Rectangle434, .Rectangle435, .Rectangle436, .Rectangle437, .Rectangle438 {
+    position: absolute;
+    background: #093624;
+}
+
+.Rectangle434 {
+    width: 144px;
+    height: 10px;
+    left: 2px;
+    top: 939px;
+}
+
+.Rectangle435 {
+    width: 788px;
+    height: 10px;
+    left: 729px;
+    top: 2534.35px;
+}
+
+.Rectangle436 {
+    width: 142px;
+    height: 10px;
+    left: 4px;
+    top: 2530.35px;
+}
+
+.Rectangle437 {
+    width: 699px;
+    height: 10px;
+    left: 812px;
+    top: 3389px;
+}
+
+.Rectangle438 {
+    width: 144px;
+    height: 10px;
+    left: 2px;
+    top: 3389px;
+}
+
+/* Styles for .Line44 to .Line46 */
+.Line44, .Line45, .Line46 {
+    position: absolute;
+    border: 1px #093624 solid;
+    height: 0;
+}
+
+.Line44 {
+    width: 355px;
+    left: 170px;
+    top: 2965.35px;
+}
+
+.Line45 {
+    width: 355px;
+    left: 582px;
+    top: 2965.35px;
+}
+
+.Line46 {
+    width: 355px;
+    left: 989px;
+    top: 2966.35px;
+}
+
+/* Styles for .Technology, .Training, .Treatment, .KnowMore */
+.Technology, .Training, .Treatment, .KnowMore {
+    position: absolute;
+    color: #093624;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 500;
+    word-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.Technology {
+    left: 273px;
+    top: 2921.35px;
+}
+
+.Training {
+    left: 705px;
+    top: 2921.35px;
+}
+
+.Treatment {
+    width: 132px;
+    height: 27px;
+    left: 1105px;
+    top: 2921.35px;
+}
+
+.KnowMore {
+    width: 150px;
+    height: 31px;
+    left: 1214px;
+    top: 4139px;
+    text-align: right;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Styles for .Frame21 */
+.Frame21 {
+    height: 446px;
+    left: 154px;
+    top: 3450px;
+    position: absolute;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 38px;
+}
+
+
+/* Styles for .Group332 */
+.Group332 {
+    width: 385px;
+    height: 445px;
+    position: relative;
+}
+
+/* Styles for .NoOfRecues */
+.NoOfRecues {
+    width: 164px;
+    height: 26px;
+    left: 0px;
+    top: 419px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styles for .Name */
+.Name {
+    width: 97px;
+    height: 27px;
+    left: 0px;
+    top: 391px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+/* Styles for .WhatsappImage20240326At6021 */
+.WhatsappImage20240326At6021 {
+    width: 385px;
+    height: 382px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/* Styles for .Rectangle416 */
+.Rectangle416 {
+    width: 124px;
+    height: 40px;
+    left: 261px;
+    top: 405px;
+    position: absolute;
+    background: #093624;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/* Styles for .Connect */
+.Connect {
+    width: 110px;
+    height: 17px;
+    left: 268px;
+    top: 417px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif; /* Specify the font family */
+}
+
+/* Styles for Group containers */
+.Group333, .Group334, .Group335 {
+    width: 385px;
+    height: 445px;
+    position: relative;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Styles for .NoOfRecues */
+.NoOfRecues {
+    width: 164px;
+    height: 26px;
+    left: 0;
+    top: 419px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styles for .Name */
+.Name {
+    width: 97px;
+    height: 27px;
+    left: 0;
+    top: 391px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+/* Styles for .WhatsappImage20240326At6021 */
+.WhatsappImage20240326At6021 {
+    width: 385px;
+    height: 382px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/* Styles for .Rectangle416 */
+.Rectangle416 {
+    width: 124px;
+    height: 40px;
+    left: 261px;
+    top: 405px;
+    position: absolute;
+    background: #093624;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/* Styles for .Connect */
+.Connect {
+    width: 110px;
+    height: 17px;
+    left: 268px;
+    top: 417px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif; /* Specify the font family */
+}
+
+/* Styles for Group336 */
+.Group336 {
+    width: 390px;
+    height: 87px;
+    left: 561px;
+    top: 3979px;
+    position: absolute;
+}
+
+/* Styles for .Rectangle407 */
+.Rectangle407 {
+    width: 390px;
+    height: 87px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #093624;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 43.50px;
+    border: 1px solid #093624;
+}
+
+/* Styles for .BecomeARescuer */
+.BecomeARescuer {
+    width: 200px;
+    height: 26px;
+    left: 112px;
+    top: 30px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+/* Styles for .Apply */
+.Apply {
+    width: 30px;
+    height: 30px;
+    left: 67px;
+    top: 29px;
+    position: absolute;
+}
+
+/* Styles for other elements */
+.Rectangle412, .AboutUs, .FindUsOn, .VisitUs, .QuickLinks, .Asv, .By, .Community, .Explore {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.Lab0Wt3 {
+    width: 357px;
+    height: 171px;
+    left: 183px;
+    top: 4959px;
+    position: absolute;
+}
+
+.Phone {
+    width: 30px;
+    height: 30px;
+    left: 748px;
+    top: 5062px;
+    position: absolute;
+}
+
+.Email {
+    width: 30px;
+    height: 30px;
+    left: 750px;
+    top: 5108px;
+    position: absolute;
+}
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif; /* Specify the font family */
+}
+
+/* Styles for icons */
+.Instagram {
+    width: 30px;
+    height: 30px;
+    left: 748px;
+    top: 5154px;
+    position: absolute;
+}
+
+.Image60 {
+    width: 46px;
+    height: 46px;
+    left: 350px;
+    top: 5206px;
+    position: absolute;
+}
+
+.PlaceMarker {
+    width: 30px;
+    height: 30px;
+    left: 1107px;
+    top: 5062px;
+    position: absolute;
+}
+
+.Linkedin {
+    width: 30px;
+    height: 30px;
+    left: 750px;
+    top: 5200px;
+    position: absolute;
+}
+
+/* Styles for text elements */
+.ContactWorldfornatureGmailCom, .call, .Worldfornature, .WorldForNature1stFloorShreeRadhaGaneshColonyKeshavNagarChinchwadPune33 {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+/* Styles for Frame19 */
+.Frame19 {
+    width: 1476px;
+    height: 645px;
+    left: 154px;
+    top: 4216px;
+    position: absolute;
+}
+
+/* Styles for Group291 */
+.Group291 {
+    width: 382px;
+    height: 602px;
+    left: 1252px;
+    top: 0;
+    position: absolute;
+}
+
+/* Styles for Rectangle401 */
+.Rectangle401 {
+    width: 382px;
+    height: 602px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Styles for ReadMore */
+.ReadMore {
+    width: 106.78px;
+    height: 19.93px;
+    left: 259px;
+    top: 551.60px;
+    position: absolute;
+    color: #093624;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    word-wrap: break-word;
+}
+
+/* Styles for HowCanYouPreventSnakebites */
+.HowCanYouPreventSnakebites {
+    width: 286px;
+    height: 78.40px;
+    left: 26px;
+    top: 396.67px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif; /* Specify the font family */
+}
+
+/* Styles for specific elements */
+.Rectangle440, .Rectangle401 {
+    width: 391px;
+    height: 602px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.WhatAreTheCommonlyFoundVenomousSnakesInIndia,
+.WhatAreTheSymptomsOfSnakebite,
+.WhatShouldBeDoneImmediatelyAfterASnakebite {
+    width: 340px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Group289, .Group290 {
+    width: 390px;
+    height: 602px;
+    position: absolute;
+}
+
+.Slide13 {
+    width: 391px;
+    height: 384px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.ReadMore {
+    width: 106.78px;
+    height: 21.36px;
+    position: absolute;
+    color: #093624;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    word-wrap: break-word;
+}
